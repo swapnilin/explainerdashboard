@@ -36,7 +36,7 @@ If you named the file above ``dashboard.py``, you can now start the gunicorn ser
 
     $ gunicorn dashboard:app
 
-If you want to run the server server with for example three workers, binding to 
+If you want to run the server with for example three workers, binding to 
 port ``8050`` you launch gunicorn with::
 
     $ gunicorn -w 3 -b localhost:8050 dashboard:app
